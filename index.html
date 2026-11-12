@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dust Busst — Professional Housekeeping & Facility Management in Bengaluru</title>
+  <meta name="description" content="Dust Busst offers professional housekeeping, deep cleaning, office cleaning and on-demand cleaning services in Bengaluru, Karnataka. HSR Layout, Koramangala, Hulimavu and surrounding areas.">
+  <meta name="keywords" content="housekeeping services Bengaluru, facility management Bengaluru, deep cleaning Bengaluru, office cleaning, home cleaning HSR Layout, Koramangala cleaning services">
+  <meta property="og:title" content="Dust Busst — A Cleaner Space. A Better Experience.">
+  <meta property="og:description" content="Professional housekeeping & facility management services in Bengaluru.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dustbusst.com">
+  <link rel="canonical" href="https://dustbusst.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+          colors: {
+            navy: { DEFAULT: '#1e3a5f', 600: '#163152', 700: '#0f2440', 800: '#0a1a30' },
+            sky: { 50: '#f0f9ff', 100: '#e0f2fe', 200: '#bae6fd', 400: '#38bdf8', 500: '#0ea5e9' },
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-sans text-gray-800 bg-white">
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar navbar-transparent fixed top-0 w-full z-50 bg-transparent">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16 lg:h-20">
+      <!-- Brand -->
+      <a href="index.html" class="nav-brand flex items-center gap-2 text-white font-extrabold text-xl tracking-tight">
+        <span class="bg-white text-navy rounded-lg px-2 py-1 text-sm font-black">DB</span>
+        DUST BUSST
+      </a>
+      <!-- Desktop nav -->
+      <div class="hidden md:flex items-center gap-8">
+        <a href="index.html" class="nav-link text-white/90 hover:text-white text-sm font-medium">Home</a>
+        <a href="about.html" class="nav-link text-white/90 hover:text-white text-sm font-medium">About</a>
+        <a href="services.html" class="nav-link text-white/90 hover:text-white text-sm font-medium">Services</a>
+        <a href="contact.html" class="nav-link text-white/90 hover:text-white text-sm font-medium">Contact</a>
+        <a href="faq.html" class="nav-link text-white/90 hover:text-white text-sm font-medium">FAQ</a>
+        <a href="https://wa.me/917411212510" target="_blank" class="nav-cta bg-white text-navy px-5 py-2 rounded-full text-sm font-semibold hover:bg-sky-50 transition">WhatsApp Us</a>
+      </div>
+      <!-- Mobile toggle -->
+      <button id="nav-toggle" class="md:hidden text-white p-2" aria-label="Menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="mobile-menu md:hidden bg-navy">
+      <div class="px-4 pb-4 flex flex-col gap-2">
+        <a href="index.html" class="text-white py-2 text-sm font-medium">Home</a>
+        <a href="about.html" class="text-white/80 py-2 text-sm font-medium">About</a>
+        <a href="services.html" class="text-white/80 py-2 text-sm font-medium">Services</a>
+        <a href="contact.html" class="text-white/80 py-2 text-sm font-medium">Contact</a>
+        <a href="faq.html" class="text-white/80 py-2 text-sm font-medium">FAQ</a>
+        <a href="https://wa.me/917411212510" target="_blank" class="bg-white text-navy text-center py-2 rounded-full text-sm font-semibold mt-2">WhatsApp Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="relative min-h-[90vh] flex items-center">
+    <img src="images/hero-team.jpg" alt="Dust Busst professional cleaning team" class="absolute inset-0 w-full h-full object-cover">
+    <div class="hero-overlay absolute inset-0"></div>
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 text-center md:text-left">
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight max-w-2xl">
+        A Cleaner Space.<br>A Better Experience.
+      </h1>
+      <p class="mt-6 text-lg sm:text-xl text-white/85 max-w-xl leading-relaxed">
+        Welcome to <strong>Dust Busst</strong>, your trusted partner for professional facility management and housekeeping services in Bengaluru.
+      </p>
+      <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+        <a href="services.html" class="bg-white text-navy px-8 py-3.5 rounded-full font-semibold hover:bg-sky-50 transition text-center">Explore Our Services</a>
+        <a href="contact.html" class="border-2 border-white text-white px-8 py-3.5 rounded-full font-semibold hover:bg-white/10 transition text-center">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES OVERVIEW ========== -->
+  <section class="py-20 lg:py-28 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center fade-in">
+        <h2 class="text-3xl lg:text-4xl font-bold text-navy">Our Services</h2>
+        <p class="mt-4 text-gray-500 max-w-2xl mx-auto">We provide professional housekeeping and facility management services tailored to your needs.</p>
+      </div>
+      <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Regular Housekeeping -->
+        <div class="service-card bg-white rounded-2xl shadow-md overflow-hidden fade-in">
+          <img src="https://images.pexels.com/photos/6196581/pexels-photo-6196581.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Regular Housekeeping" class="w-full h-48 object-cover" loading="lazy">
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-navy">Regular Housekeeping</h3>
+            <p class="mt-2 text-gray-500 text-sm leading-relaxed">Daily cleaning and maintenance of homes, apartments and office spaces.</p>
+            <a href="services.html" class="mt-4 inline-block text-blue-600 text-sm font-semibold hover:underline">Learn More &rarr;</a>
+          </div>
+        </div>
+        <!-- Deep Cleaning -->
+        <div class="service-card bg-white rounded-2xl shadow-md overflow-hidden fade-in">
+          <img src="https://images.pexels.com/photos/6196692/pexels-photo-6196692.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Deep Cleaning Services" class="w-full h-48 object-cover" loading="lazy">
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-navy">Deep Cleaning</h3>
+            <p class="mt-2 text-gray-500 text-sm leading-relaxed">Detailed cleaning of floors, bathrooms, kitchens, surfaces and hard-to-reach areas.</p>
+            <a href="services.html" class="mt-4 inline-block text-blue-600 text-sm font-semibold hover:underline">Learn More &rarr;</a>
+          </div>
+        </div>
+        <!-- Office Housekeeping -->
+        <div class="service-card bg-white rounded-2xl shadow-md overflow-hidden fade-in">
+          <img src="https://images.pexels.com/photos/34516670/pexels-photo-34516670.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Office Housekeeping" class="w-full h-48 object-cover" loading="lazy">
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-navy">Office Housekeeping</h3>
+            <p class="mt-2 text-gray-500 text-sm leading-relaxed">Maintaining clean, organized and hygienic office environments.</p>
+            <a href="services.html" class="mt-4 inline-block text-blue-600 text-sm font-semibold hover:underline">Learn More &rarr;</a>
+          </div>
+        </div>
+        <!-- On-Demand Cleaning -->
+        <div class="service-card bg-white rounded-2xl shadow-md overflow-hidden fade-in">
+          <img src="https://images.pexels.com/photos/6195275/pexels-photo-6195275.jpeg?auto=compress&cs=tinysrgb&w=600" alt="On-Demand Cleaning" class="w-full h-48 object-cover" loading="lazy">
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-navy">On-Demand Cleaning</h3>
+            <p class="mt-2 text-gray-500 text-sm leading-relaxed">Flexible cleaning support based on customer requirements and availability.</p>
+            <a href="services.html" class="mt-4 inline-block text-blue-600 text-sm font-semibold hover:underline">Learn More &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WHY CHOOSE US ========== -->
+  <section class="py-20 lg:py-28 bg-sky-50/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center fade-in">
+        <h2 class="text-3xl lg:text-4xl font-bold text-navy">Why Choose Dust Busst?</h2>
+        <p class="mt-4 text-gray-500 max-w-2xl mx-auto">Our commitment to quality sets us apart.</p>
+      </div>
+      <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Feature 1 -->
+        <div class="flex gap-4 fade-in">
+          <div class="feature-icon">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-navy">Professional Service</h3>
+            <p class="mt-1 text-gray-500 text-sm">Responsible and professional housekeeping support.</p>
+          </div>
+        </div>
+        <!-- Feature 2 -->
+        <div class="flex gap-4 fade-in">
+          <div class="feature-icon">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-navy">Hygiene First</h3>
+            <p class="mt-1 text-gray-500 text-sm">Focus on cleanliness and hygienic surroundings.</p>
+          </div>
+        </div>
+        <!-- Feature 3 -->
+        <div class="flex gap-4 fade-in">
+          <div class="feature-icon">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-navy">Reliable Team</h3>
+            <p class="mt-1 text-gray-500 text-sm">Dedicated staff committed to customer requirements.</p>
+          </div>
+        </div>
+        <!-- Feature 4 -->
+        <div class="flex gap-4 fade-in">
+          <div class="feature-icon">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.573-1.066z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-navy">Flexible Solutions</h3>
+            <p class="mt-1 text-gray-500 text-sm">Services designed around customer needs.</p>
+          </div>
+        </div>
+        <!-- Feature 5 -->
+        <div class="flex gap-4 fade-in">
+          <div class="feature-icon">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-navy">Customer Satisfaction</h3>
+            <p class="mt-1 text-gray-500 text-sm">We value every customer and every space.</p>
+          </div>
+        </div>
+        <!-- Feature 6 -->
+        <div class="flex gap-4 fade-in">
+          <div class="feature-icon">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-navy">Quality Standards</h3>
+            <p class="mt-1 text-gray-500 text-sm">Consistent attention to cleaning quality and service delivery.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CUSTOMER SEGMENTS ========== -->
+  <section class="py-20 lg:py-28 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center fade-in">
+        <h2 class="text-3xl lg:text-4xl font-bold text-navy">Who We Serve</h2>
+        <p class="mt-4 text-gray-500 max-w-2xl mx-auto">From homes to corporate offices, we deliver spotless environments everywhere.</p>
+      </div>
+      <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="service-card rounded-2xl overflow-hidden shadow-md fade-in">
+          <img src="images/residential-home.jpg" alt="Residential Home" class="w-full h-44 object-cover" loading="lazy">
+          <div class="p-5">
+            <h3 class="font-bold text-navy">Residential Home</h3>
+            <p class="mt-1 text-gray-500 text-sm">Comfortable and hygienic living spaces.</p>
+          </div>
+        </div>
+        <div class="service-card rounded-2xl overflow-hidden shadow-md fade-in">
+          <img src="images/apartment-lobby.jpg" alt="Apartments" class="w-full h-44 object-cover" loading="lazy">
+          <div class="p-5">
+            <h3 class="font-bold text-navy">Apartments</h3>
+            <p class="mt-1 text-gray-500 text-sm">Housekeeping support for residential communities.</p>
+          </div>
+        </div>
+        <div class="service-card rounded-2xl overflow-hidden shadow-md fade-in">
+          <img src="images/corporate-office.jpg" alt="Corporate Offices" class="w-full h-44 object-cover" loading="lazy">
+          <div class="p-5">
+            <h3 class="font-bold text-navy">Corporate Offices</h3>
+            <p class="mt-1 text-gray-500 text-sm">Clean and professional work environments.</p>
+          </div>
+        </div>
+        <div class="service-card rounded-2xl overflow-hidden shadow-md fade-in">
+          <img src="images/commercial-space.jpg" alt="Commercial Spaces" class="w-full h-44 object-cover" loading="lazy">
+          <div class="p-5">
+            <h3 class="font-bold text-navy">Commercial Spaces</h3>
+            <p class="mt-1 text-gray-500 text-sm">Cleaning solutions for business spaces.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA BANNER ========== -->
+  <section class="bg-navy py-16 lg:py-20">
+    <div class="max-w-4xl mx-auto px-4 text-center fade-in">
+      <h2 class="text-3xl lg:text-4xl font-bold text-white">Let's Make Your Space Cleaner!</h2>
+      <p class="mt-4 text-white/75 text-lg max-w-xl mx-auto">Looking for dependable housekeeping and cleaning services in Bengaluru? Get in touch today.</p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="contact.html" class="bg-white text-navy px-8 py-3.5 rounded-full font-semibold hover:bg-sky-50 transition">Contact Us</a>
+        <a href="https://wa.me/917411212510" target="_blank" class="border-2 border-white text-white px-8 py-3.5 rounded-full font-semibold hover:bg-white/10 transition">WhatsApp Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="bg-navy-800 text-white/70 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-3 gap-10">
+        <!-- Brand -->
+        <div>
+          <a href="index.html" class="flex items-center gap-2 text-white font-extrabold text-xl tracking-tight">
+            <span class="bg-white text-navy rounded-lg px-2 py-1 text-sm font-black">DB</span>
+            DUST BUSST
+          </a>
+          <p class="mt-3 text-sm leading-relaxed">Professional Facility Management Services.<br>Clean Spaces. Healthy Places. Better Living.</p>
+        </div>
+        <!-- Quick Links -->
+        <div>
+          <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Quick Links</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="index.html" class="hover:text-white transition">Home</a></li>
+            <li><a href="about.html" class="hover:text-white transition">About Us</a></li>
+            <li><a href="services.html" class="hover:text-white transition">Services</a></li>
+            <li><a href="contact.html" class="hover:text-white transition">Contact Us</a></li>
+            <li><a href="faq.html" class="hover:text-white transition">FAQ</a></li>
+          </ul>
+        </div>
+        <!-- Contact -->
+        <div>
+          <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Contact</h4>
+          <ul class="space-y-2 text-sm">
+            <li>Bengaluru, Karnataka</li>
+            <li>HSR Layout, Koramangala, Hulimavu</li>
+            <li><a href="tel:+919986034680" class="hover:text-white transition">9986034680</a> / <a href="tel:+917411212510" class="hover:text-white transition">7411212510</a></li>
+            <li><a href="mailto:dustbusst@gmail.com" class="hover:text-white transition">dustbusst@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-10 pt-8 border-t border-white/10 text-center text-xs text-white/50">
+        &copy; 2026 Dust Busst. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

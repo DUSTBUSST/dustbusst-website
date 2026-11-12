@@ -1,0 +1,97 @@
+/* ===== Dust Busst — Custom Styles ===== */
+
+/* Smooth scroll for anchor links */
+html { scroll-behavior: smooth; }
+
+/* ---- Navbar ---- */
+.navbar {
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.navbar.scrolled {
+  background-color: #ffffff !important;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+}
+.navbar.scrolled .nav-link,
+.navbar.scrolled .nav-brand { color: #1e3a5f !important; }
+.navbar.scrolled .nav-cta {
+  background-color: #1e3a5f !important;
+  color: #fff !important;
+}
+
+/* Mobile menu */
+.mobile-menu { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
+.mobile-menu.open { max-height: 400px; }
+
+/* ---- Hero ---- */
+.hero-overlay {
+  background: linear-gradient(135deg, rgba(30,58,95,0.92) 0%, rgba(30,58,95,0.75) 100%);
+}
+
+/* ---- Section fade-in on scroll ---- */
+.fade-in {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ---- Cards ---- */
+.service-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(30,58,95,0.12);
+}
+
+/* ---- Feature icon circle ---- */
+.feature-icon {
+  width: 56px; height: 56px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 50%;
+  background: #eff6ff;
+  color: #3b82f6;
+  flex-shrink: 0;
+}
+
+/* ---- Process steps ---- */
+.process-step { position: relative; }
+.process-step::before {
+  content: '';
+  position: absolute;
+  left: 27px; top: 56px; bottom: -24px;
+  width: 2px;
+  background: #bfdbfe;
+}
+.process-step:last-child::before { display: none; }
+
+/* ---- FAQ accordion ---- */
+.faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
+.faq-item.active .faq-answer { max-height: 300px; }
+.faq-item.active .faq-chevron { transform: rotate(180deg); }
+.faq-chevron { transition: transform 0.3s ease; }
+
+/* ---- Contact cards ---- */
+.contact-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.contact-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(30,58,95,0.12);
+}
+
+/* ---- Page hero banner ---- */
+.page-hero {
+  background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 100%);
+}
+
+/* ---- Footer ---- */
+footer a:hover { color: #93c5fd; }
+
+/* ---- Responsive tweaks ---- */
+@media (max-width: 768px) {
+  .process-step::before { left: 19px; top: 44px; }
+}

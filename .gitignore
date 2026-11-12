@@ -1,0 +1,4 @@
+# Extracted docx images (raw dumps, not used on site)
+image*.jpeg
+DUSTBUSST.docx
+DUSTBUSST.txt
